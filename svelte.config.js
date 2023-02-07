@@ -12,10 +12,10 @@ const config = {
 			precompress: false,
 			strict: true
 		}),
-		prerender: {
-			default: true
-		},
-		tailingSlash: 'always',
+		// prerender: {
+		// 	default: true
+		// },
+		// tailingSlash: 'always',
 		paths: {
 			base: '/svelte-gh-pages'
 		}
