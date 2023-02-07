@@ -15,7 +15,7 @@ const config = {
 		// prerender: {
 		// 	default: true
 		// },
-		// tailingSlash: 'always',
+		// trailingSlash: 'always',
 		paths: {
 			base: '/svelte-gh-pages'
 		}
