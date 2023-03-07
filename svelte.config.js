@@ -1,7 +1,10 @@
 import adapter from '@sveltejs/adapter-static';
+import { vitePreprocess } from '@sveltejs/kit/vite';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	preprocess: vitePreprocess(),
+
 	kit: {
 		adapter: adapter({
 			// default options are shown. On some platforms
@@ -12,14 +15,14 @@ const config = {
 			precompress: false,
 			strict: true
 		})
-		// prerender: {
-		// 	default: true
-		// }
-		// trailingSlash: 'always'
-		// paths: {
-		// 	base: '/svelte-gh-pages'
-		// }
 	}
+	// prerender: {
+	// 	default: true
+	// }
+	// trailingSlash: 'always'
+	// paths: {
+	// 	base: '/svelte-gh-pages'
+	// }
 };
 
 export default config;
