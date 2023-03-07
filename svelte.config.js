@@ -14,10 +14,10 @@ const config = {
 		})
 		// prerender: {
 		// 	default: true
-		// },
-		// trailingSlash: 'always',
+		// }
+		// trailingSlash: 'always'
 		// paths: {
-		// base: '/svelte-gh-pages'
+		// 	base: '/svelte-gh-pages'
 		// }
 	}
 };

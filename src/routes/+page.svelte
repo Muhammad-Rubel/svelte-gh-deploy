@@ -1,4 +1,4 @@
-<h1 class="text-5xl">Test</h1>
+<h1 class="text-5xl" style="color: blue;">Test</h1>
 
 <style>
 	h1 {
