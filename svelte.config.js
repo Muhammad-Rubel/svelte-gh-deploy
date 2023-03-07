@@ -15,14 +15,14 @@ const config = {
 			precompress: false,
 			strict: true
 		})
-	}
+	},
 	// prerender: {
 	// 	default: true
 	// }
 	// trailingSlash: 'always'
-	// paths: {
-	// 	base: '/svelte-gh-pages'
-	// }
+	paths: {
+		base: '/svelte-gh-pages'
+	}
 };
 
 export default config;
