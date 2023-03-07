@@ -22,7 +22,8 @@ const config = {
 	// trailingSlash: 'always'
 	paths: {
 		base: '/svelte-gh-pages'
-	}
+	},
+	appDir: 'app'
 };
 
 export default config;
